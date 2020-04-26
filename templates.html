@@ -1,0 +1,213 @@
+<html>
+<style>
+  .bre-template>h1,
+  .bre-template>h2,
+  .bre-template>h3,
+  .bre-template>h4,
+  .bre-template>h5,
+  .bre-template>h6,
+  .bre-template>p,
+  .bre-template>blockquote {
+      margin-bottom: 0;
+  }
+
+  .padicl{
+      padding: 17px;
+  }
+
+  .bre-template>mb-4,
+  .bre-template>mt-4 {
+      margin: 0;
+  }
+
+  .bre-template>.row>.col-md-6 {
+      width: 50% !important;
+  }
+
+  .bre-template>.row>.col-md-4 {
+      width: 33.33% !important;
+  }
+  .need_new_icons{
+        display: inline-block;
+        padding: 5px 10px;
+        
+      }
+
+      .need_new_icons:hover{
+        background: #d7d7d7;
+        cursor: pointer;
+      }
+      .display_ci{
+          display: none;
+      }
+
+      .figurea{
+          margin: 10px 0px;
+    }
+      .figure-imga{
+          max-width: 100%;
+      }
+
+      .figure-captiona{
+        background: #f1f1f1;
+    margin: 0px 30px;
+    border-radius: 70px;
+      }
+
+      .code_temp{
+          background: #f1f1f1;
+          margin: 17px;
+          font-family: monospace;
+          border-left: 7px solid #ccc;
+      }
+
+     p:empty:not(:focus)::before {
+  content: attr(data-placeholder);
+
+
+} 
+
+  .headingvg{
+      font-size: 21px;
+    }
+</style>
+
+<!-- <div class="bre-template-group" title="Containers">
+
+  <div class="bre-template" data-name="Columns-2">
+      <div class="row">
+          <div class="col-md-6" data-bre-field='{ "name" : "col1", "type": "container" }'></div>
+          <div class="col-md-6" data-bre-field='{ "name" : "col2", "type": "container" }'></div>
+      </div>
+  </div>
+
+  <div class="bre-template" data-name="Columns-3">
+      <div class="row">
+          <div class="col-md-4" data-bre-field='{ "name" : "col1", "type": "container" }'></div>
+          <div class="col-md-4" data-bre-field='{ "name" : "col2", "type": "container" }'></div>
+          <div class="col-md-4" data-bre-field='{ "name" : "col3", "type": "container" }'></div>
+      </div>
+  </div>
+
+  <div class="bre-template" data-name="Columns-4">
+      <div class="row">
+          <div class="col-md-3" data-bre-field='{ "name" : "col1", "type": "container" }'></div>
+          <div class="col-md-3" data-bre-field='{ "name" : "col2", "type": "container" }'></div>
+          <div class="col-md-3" data-bre-field='{ "name" : "col3", "type": "container" }'></div>
+          <div class="col-md-3" data-bre-field='{ "name" : "col4", "type": "container" }'></div>
+      </div>
+  </div>
+</div> -->
+
+<!-- <div class="bre-template-group" title="Headers">
+  <div class="bre-template" data-name="Display Heading 1">
+      <h1 class="display-2" data-bre-field='{ "name" : "text", "type": "html" }'>Header</h1>
+  </div>
+
+  <div class="bre-template" data-name="Heading 1">
+      <h1 data-bre-field='{ "name" : "text", "type": "html" }'>Header</h1>
+  </div>
+
+  <div class="bre-template" data-name="Heading 2">
+      <h2 data-bre-field='{ "name" : "text", "type": "html" }'>Header</h2>
+  </div> -->
+
+  <div class="bre-template" data-name="Heading 3">
+      <p data-bre-field='{ "name" : "text", "type": "html" }' class="padicl ALLIDtodisplvfs headingvg" data-placeholder="Your Heading..."></p>
+  </div>
+<!-- </div> -->
+
+<!-- <div class="bre-template-group" title="Text"> -->
+
+  <div class="bre-template" data-name="Paragraph Lead">
+      <p class="lead padicl ALLIDtodisplvfs" data-bre-field='{ "name" : "text", "type": "html" }' data-placeholder= "Write your text...">
+      </p>
+  </div>
+
+  <div class="bre-template" data-name="Paragraph">
+      <p data-bre-field='{ "name" : "text", "type": "html" }' class="padicl ALLIDtodisplvfs" data-placeholder = "Write your text...">
+      </p>
+  </div>
+
+  <div class="bre-template" data-name="Blockquote">
+      <blockquote class="blockquote padicl ALLIDtodisplvfs">
+          <p class="mb-0" data-bre-field='{ "name" : "text", "type": "html" }' data-placeholder= "Your Quote..."></p>
+          <!-- <footer class="blockquote-footer">
+              <span data-bre-field='{ "name" : "author", "type": "html" }'>Someone famous in </span>
+              <cite data-bre-field='{ "name" : "source", "type": "html" }'>Source Title</cite>
+          </footer> -->
+      </blockquote>
+  </div>
+  <div class="bre-template ALLIDtodisplvfs" data-name="Code">
+    <p data-bre-field='{ "name" : "author", "type": "html" }' class="padicl code_temp" data-placeholder = "Your code...">
+    </p>
+</div>
+
+  <!-- <div class="bre-template" data-name="Blockquote Reverse">
+      <blockquote class="blockquote blockquote-reverse">
+          <p class="mb-0" data-bre-field='{ "name" : "text", "type": "html" }'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+          <footer class="blockquote-footer">
+              <span data-bre-field='{ "name" : "author", "type": "html"}'>Someone famous in</span>
+              <cite data-bre-field='{ "name" : "source", "type": "html" }'>Source Title</cite>
+          </footer>
+      </blockquote>
+  </div>
+</div> -->
+
+<!-- <div class="bre-template-group" title="Media"> -->
+
+  <div class="bre-template" data-name="Embed">
+      <center>
+          <h4 style="background: #f9f9f9; border: dashed 2px #ddd; padding: 17px; margin:17px; color: #000; padding: 1rem;" data-bre-field='{ "name" : "embed", "type": "embed" }' class="padicl ALLIDtodisplvfs">
+              Click to enter the links of youtube, instagram etc.
+          </h4>
+      </center>
+  </div>
+
+  <!-- <div class="bre-template" data-name="Image">
+      <div class="row">
+          <div class="col-md-12">
+              <img class="figure-img img-fluid" data-bre-field="{ 'name' : 'image', 'type' : 'image', 'src' : 'assets/photo.jpg'}" />
+              </figure>
+          </div>
+      </div>
+  </div> -->
+
+  <div class="bre-template" data-name="Image with caption">
+      <div class="row">
+          <div class="col-md-12">
+              <figure class="figurea text-center" style="width: 100%">
+                  <img class="figure-imga img-fluida" data-bre-field="{ 'name' : 'image', 'type' : 'image', 'src' : 'images/photo100a.png'}" />
+              </figure>
+          </div>
+      </div>
+  </div>
+  
+  <!-- <div class="bre-template" data-name="Video">
+      <div class="row">
+          <div class="col-md-12">
+              <video width="100%" class="figure-imga" data-bre-field="{ 'name' : 'video', 'type' : 'video', 'src' : 'images/photo100a.png'}"></video>
+            </div>
+        </div>
+    </div> -->
+  <!-- <div class="bre-template" data-name="Image with caption">
+        <div class="row">
+            <div class="col-md-12">
+                <figure class="figurea text-center" style="width: 100%">
+                    <img class="figure-imga img-fluida" data-bre-field="{ 'name' : 'image', 'type' : 'image', 'src' : 'images/photo100a.png'}" />
+                    <figcaption class="figure-captiona" data-bre-field="{ 'name' : 'caption', 'type' : 'html'}">Lorem ipsum dolor sit amet</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div> -->
+<!-- </div> -->
+
+<!-- <div class="bre-template" data-name="Image">
+  <div class="row">
+      <div class="col-md-12">
+          <img class="figure-img img-fluid" data-bre-field="{ 'name' : 'image', 'type' : 'image', 'src' : 'assets/photo.jpg'}" />
+          </figure>
+      </div>
+  </div>
+</div> -->
+</html>
