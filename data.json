@@ -1,0 +1,10 @@
+[{
+  "template": "Container",
+  "fields": [
+    {
+      "name": "text",
+      "type": "html",
+      "html": "Hi! This is treeshort editor."
+    }
+  ]
+}]
